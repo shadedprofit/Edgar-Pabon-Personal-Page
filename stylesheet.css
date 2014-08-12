@@ -1,0 +1,313 @@
+/* {
+	border: 2px solid black;
+} */
+
+body {
+	background: url("wide_rectangles.png");
+	background-position: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+div {
+	display: block;
+} 
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #ffffff;
+	box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+	position: relative;
+	display: table;
+}
+
+#header {
+	background: url("http://revtravel.com/wp-content/uploads/2012/10/Gangnam-style-002.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: white;
+	color: #ffffff;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+#header h1 {
+	font-size: 48px;
+	font-weight: 600px;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding: 0 2px;
+}
+
+#header p {
+	font-size: 20px;
+	font-weight: 600px;
+	padding-bottom: 20px;
+
+	margin-top: 0px;
+}
+
+
+
+.insidecircle {
+	border-radius: 10%;
+	border: 5px solid white;
+	height: 175px;
+	width: 175px;
+	margin: 75px 0 0 0;
+}
+
+.insidecircle h1 {
+
+}
+
+.nav {
+	background-color: rgba(0,0,0,0.88);
+	position: fixed;
+	z-index: 1;
+	padding: 5px 5px 0 5px;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	top: 4px;
+	width: 960px;
+	text-align: center;
+}
+
+
+
+.nav li {
+	display: inline;
+	padding: 5px 20px;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	border-right: 1px solid black;
+}
+
+
+.buttons {
+	width: 25px;
+	height: 25px;
+	margin: 0 4px;
+	padding: 0;
+	top: 0;
+	border: 0;
+	box-shadow: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover {
+	background-color: rgba(0, 155, 244, 0.9);
+	padding: 10px 30px 15px 30px;
+}
+
+.sharelink > img {
+	background: black;
+}
+
+.sharelink > a:hover {
+	padding: 0;
+	opacity: 0.8;
+	background-color: rgba(0,0,0,0.88);
+}
+
+#content {
+	background-color: #ffffff;
+	height: relative;
+	margin-top: 10px;
+	padding: 20px;
+	color: #000000;
+	position: relative;
+}
+
+.main {
+	float: left;
+	position: relative;
+	max-width: 650px;
+	margin-top: -22px;
+}
+
+.main h3 {
+	font-size: 32px;
+	font-style: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+
+.aside {
+	float: right;
+	position: relative;
+	width: 250px;
+}
+
+article {
+	height: 275px;
+	padding: 5px;
+	display: inline-block;
+	overflow: scroll;
+	margin-bottom: 10px;
+}
+
+article h1 {
+	margin-left: 30px;
+	margin-bottom: 0;
+	color: #0b4c5f;
+}
+
+article p {
+	color: #0b4c5f;
+	margin-left: 30px;
+	margin-bottom: 0.5em;
+}
+
+.bloglayout {
+	display: inline-block;
+	position: relative;
+}
+
+.bloglayout li {
+	margin: 10px 0 10px -10px;
+	max-width: 375px;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bodyphotos {
+	width: 200px;
+	padding-top: 11px;
+	margin: 0 0 0 5px; 
+}
+
+#footer a:link {
+	text-decoration: none;
+	color: #6699ff;
+	font-weight: bold;
+}
+
+#footer a:hover {
+	
+	color: #cc66ff;
+}
+
+#footer a:visited {
+	color: #003399;
+}
+
+#footer {
+	clear: both;
+	background-color: rgba(0,0,0,0.88);
+	color: #ffffff;
+	width: 950px;
+	padding: 10px;
+	font-family: Verdana;
+	
+	top: 10px;
+	display: inline-block;
+	
+	position: relative;
+	bottom: 0;
+	border-radius: 0px;
+}
+
+#footer p, h3 {
+	padding: 0px;
+	margin: 0.5em
+}
+
+#footer ul {
+	display: inline-block;
+	left: 100px;
+	right: 100px;
+}
+
+
+#contactinfo {
+	position: relative;
+	margin: 5px 5px 5px 5px; 
+	display: inline-block;
+	padding: 0;
+	width: 280px;
+	vertical-align: top;
+}
+
+#skilltags {
+	position: relative;
+	margin: 5px 20px 5px 5px;
+	display: inline-block;
+	width: 280px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+.tag {
+	display: inline-block;
+	height: 20px;
+	width: relative;
+	color: #000000;
+	background-color: #eeeeee;
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+	padding: 5px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+.tag:hover {
+	color: white;
+	background-color: #3bb9ff;
+}
+
+#skilltags p {
+	margin: 0em;
+}
+
+#newsletter {
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+	width: 280px;
+	padding: 0;
+}
+
+
+
+#newsletter input[type="email"] {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 16px;
+	position: relative;
+	display: inline-block;
+	left: 5px;
+}
+
+#newsletter input[type="submit"] {
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	background-color: #2b60de;
+}
+
+#newsletter input[type="submit"]:hover {
+	color: white;
+	background-color: #3bb9ff;
+}
+
+@media (max-width: 500px) {
+	#header ul {
+		display: block;
+		margin: auto;
+	}
